@@ -11,7 +11,8 @@
     "isomorphic-fetch": "^2.2.1",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
-    "styled-components": "^1.4.5"
+    "styled-components": "^1.4.5",
+    "micro": "latest"
   },
   "devDependencies": {
     "animate.css": "^3.5.2",
