@@ -1,0 +1,66 @@
+#Text {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  border-radius: 10px;
+  padding-top: 20px;
+  top: 300px;
+  left: 20%;
+  right: 20%;
+  height: 420px;
+  width: 60%;
+  animation-duration: 0.1s;
+}
+
+.Subtitle {
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.47);
+  font-size: 20px;
+  color: white;
+}
+
+.InputName {
+  display: inline-block;
+  width: 80%;
+  margin-left: 20px;
+  font-size: 13px;
+}
+
+.InputContent {
+  display: block;
+  width: 90%;
+  height: 300px;
+  margin-left: 4%;
+  margin-top: 7px;
+  font-size: 14px;
+}
+
+.SubmitButton {
+  display: inline-block;
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+  margin-left: 20%;
+  transition: color 0.3s;
+}
+
+.SubmitButton:hover {
+  color: rgba(33, 201, 243, 0.55);
+  transition: color 0.3s;
+}
+
+.CancelButton {
+  display: inline-block;
+  text-align: center;    
+  float: right;
+  color: white;
+  margin-top: 10px;
+  margin-right: 20%;
+  transition: color 0.3s;
+}
+
+.CancelButton:hover {
+  color: rgba(33, 201, 243, 0.55);
+  transition: color 0.3s;
+}

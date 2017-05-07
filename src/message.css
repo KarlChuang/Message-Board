@@ -1,0 +1,44 @@
+#Message {
+  margin-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  border: 0;
+  border-bottom: 1px;
+  border-style: solid;
+  border-color: rgba(0,0,0,0.3);
+  animation-duration: 0.5s;
+}
+
+.Name {
+  font-size: 25px;
+  font-weight: bolder;
+  color: rgb(46, 60, 31);
+  display: inline-block;
+}
+
+.Content {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.7);
+  word-break: break-all;
+}
+
+.Time {
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.47);
+}
+
+.Reply {
+  composes: Time;
+  float: right;
+  margin-right: 50px;
+}
+
+button {
+  background-color: rgb(165, 174, 178);
+  font-size: 15px;
+  border-style: hidden;
+  margin-right: -10px;
+  margin-bottom: 5px;
+}
