@@ -17,11 +17,11 @@ class App extends Component {
     this.MessageArray = this.MessageArray.bind(this);
   }
   componentWillMount() {
-    fetch('/getData').then(response => {
+    fetch('/api/comments').then(response => {
       return response.json();
     }).then(json => {
       this.setState({
-        data: json,
+        data: json.Messages,
       });
     });
   }
@@ -81,13 +81,13 @@ class App extends Component {
       replyHover: false,
     });
 
-    fetch('/', {
+    fetch('/api/comments', {
       method: 'post',
       headers: {
         'Accept': 'application/json',
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify(this.state.data),
+      body: JSON.stringify({ Messages: this.state.data }),
     });
   }
   handleCancel() {
