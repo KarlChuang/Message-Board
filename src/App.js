@@ -142,7 +142,7 @@ class App extends Component {
     const DataRender = this.MessageArray(DataOld, 0);
 
     return (
-      <div className="App">
+      <div className={style.App}>
         <h1 className={style.Title}>Message Board</h1>
         <div className={style.TopBoard}>
           {DataRender}
