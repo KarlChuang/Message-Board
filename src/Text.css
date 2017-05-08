@@ -14,7 +14,8 @@
 .Subtitle {
   display: inline-block;
   margin-left: 20px;
-  font-size: 15px;
+  font-size: 16px;
+  font-width: border;
   color: rgba(0, 0, 0, 0.47);
   font-size: 20px;
   color: white;
@@ -39,6 +40,8 @@
 .SubmitButton {
   display: inline-block;
   text-align: center;
+  font-size: 16px;
+  font-width: border;
   color: white;
   margin-top: 10px;
   margin-left: 20%;
@@ -52,7 +55,9 @@
 
 .CancelButton {
   display: inline-block;
-  text-align: center;    
+  text-align: center; 
+  font-size: 16px; 
+  font-width: border;
   float: right;
   color: white;
   margin-top: 10px;
