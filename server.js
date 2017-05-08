@@ -7,22 +7,41 @@ const app = express();
 const data = {
   Messages: [
     {
-      name: 'Karl',
-      time: "2017-5-1 21:30",
-      content: 'aaa',
+      name: 'Karl Chuang',
+      time: "2017-5-8 15:01",
+      content: 'Welcome to Message Board!!!',
       reply: [
         {
-          name: 'Karllllll',
-          time: "2017-5-1 21:30",
-          content: 'aaa111111',
+          name: 'Karl Chuang',
+          time: "2017-5-8 15:01",
+          content: 'You can add a new message by clicking add button below. ⬇︎',
           reply: [],
+        },
+        {
+          name: 'Karl Chuang',
+          time: "2017-5-8 15:01",
+          content: 'You can also reply other people\'s messages by click reply button. ➡',
+          reply: [
+            {
+              name: 'Karl Chuang',
+              time: "2017-5-8 15:01",
+              content: 'The maximum number of reply layers is 5.',
+              reply: [],
+            },
+            {
+              name: 'Karl Chuang',
+              time: "2017-5-8 15:01",
+              content: 'On the fifth layer, the message board will add new reply at the same layer.',
+              reply: [],
+            },
+          ],
         },
       ],
     },
     {
-      name: 'Leo',
-      time: "2017-5-1 21:35",
-      content: 'bbb',
+      name: 'Karl Chuang',
+      time: "2017-5-8 15:01",
+      content: 'Enjoy it!!!',
       reply: [],
     },
   ],
